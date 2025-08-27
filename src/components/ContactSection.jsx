@@ -13,7 +13,7 @@ const ContactSection = () => (
       <div className="contact-grid">
         <div className="contact-card">
           <Phone size={32} />
-          <h3>Phone</h3>55
+          <h3>Phone</h3>
           <p>Mobile: 075 154 0808</p>
           <p>Tel: 087 255 3598</p>
         </div>
