@@ -1,0 +1,138 @@
+.about-section {
+  padding: 80px 20px;
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1c1c1c;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-image {
+  flex: 1 1 45%;
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  margin-left: -5%;
+  transition: transform 0.4s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.03);
+}
+
+.about-content {
+  flex: 1 1 50%;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+.about-content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #11553e;
+}
+
+.about-content p {
+  font-size: 1.15rem;
+  margin-bottom: 30px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.about-content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 18px;
+  color: #111;
+  border-bottom: 2px solid #11553e;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.value-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.value-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.icon {
+  margin-right: 12px;
+  color: #11553e;
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .about-image,
+  .about-content {
+    flex: 1 1 100%;
+    margin-left: 0;
+    animation: none;
+  }
+
+  .about-content h2 {
+    font-size: 2.3rem;
+  }
+
+  .about-content p {
+    font-size: 1.05rem;
+  }
+
+  .about-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .value-list li {
+    justify-content: center;
+  }
+}

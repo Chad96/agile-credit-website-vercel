@@ -1,0 +1,130 @@
+.custom-navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.navbar-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-brand-text {
+  color: #000000;
+  font-weight: bold;
+}
+
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.toggle-icon {
+  color: #000; /* black icon */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-links li a:hover {
+  color: #11553e;
+} 
+
+/* Desktop-only: push logo and brand text more to the left */
+@media (min-width: 769px) {
+  .navbar-brand {
+    margin-left: -12%; /* Adjust as needed (e.g. -30px or -40px) */
+  }
+}
+
+
+/* -------------------- MOBILE STYLES -------------------- */
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+    z-index: 1001;
+  }
+
+  .navbar-links {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    gap: 20px;
+    padding: 20px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    animation: dropdownFade 0.3s ease;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .navbar-brand-text {
+    display: inline; /* Keep text visible next to logo */
+  }
+
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .navbar-brand {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo {
+    margin: 0;
+  }
+}
+
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
