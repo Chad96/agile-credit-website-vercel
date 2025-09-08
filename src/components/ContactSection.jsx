@@ -21,7 +21,7 @@ const ContactSection = () => (
         <div className="contact-card">
           <Mail size={32} />
           <h3>Email</h3>
-          <p>agilecredits@workmail.com</p>
+          <p>info@agilecreditsolutions.co.za</p>
         </div>
 
         <div className="contact-card">
@@ -40,7 +40,7 @@ const ContactSection = () => (
 
       <form
         className="contact-form"
-        action="https://formspree.io/f/{your_form_id}" 
+        action="https://formspree.io/f/mqadwnkv"
         method="POST"
       >
         <h3>Send a Message</h3>
