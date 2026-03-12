@@ -52,6 +52,8 @@
   list-style: none;
   display: flex;
   gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-links li a {
@@ -63,15 +65,7 @@
 
 .navbar-links li a:hover {
   color: #11553e;
-} 
-
-/* Desktop-only: push logo and brand text more to the left */
-@media (min-width: 769px) {
-  .navbar-brand {
-    margin-left: -12%; /* Adjust as needed (e.g. -30px or -40px) */
-  }
 }
-
 
 /* -------------------- MOBILE STYLES -------------------- */
 @media (max-width: 768px) {
@@ -115,6 +109,17 @@
 
   .navbar-logo {
     margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-navbar {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .navbar-container {
+    max-width: 1280px;
   }
 }
 

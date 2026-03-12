@@ -21,7 +21,7 @@ const ContactSection = () => (
         <div className="contact-card">
           <Mail size={32} />
           <h3>Email</h3>
-          <p>info@agilecreditsolutions.co.za</p>
+          <p>info@agilecreditsolutions.co.za`~</p>
         </div>
 
         <div className="contact-card">
