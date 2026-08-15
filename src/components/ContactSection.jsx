@@ -1,6 +1,6 @@
-import React from 'react';
-import { Phone, Mail, MessageCircle } from 'lucide-react';
-import './ContactSection.css';
+import React from "react";
+import { Phone, Mail, MessageCircle } from "lucide-react";
+import "./ContactSection.css";
 
 const ContactSection = () => (
   <section id="contact" className="contact-section">
@@ -14,14 +14,14 @@ const ContactSection = () => (
         <div className="contact-card">
           <Phone size={32} />
           <h3>Phone</h3>
-          <p>Mobile: 075 154 0808</p>
+          <p>Mobile: 087 092 6815</p>
           <p>Tel: 087 255 3598</p>
         </div>
 
         <div className="contact-card">
           <Mail size={32} />
           <h3>Email</h3>
-          <p>info@agilecreditsolutions.co.za`~</p>
+          <p>info@agilecreditsolutions.co.za</p>
         </div>
 
         <div className="contact-card">
@@ -45,7 +45,7 @@ const ContactSection = () => (
       >
         <h3>Send a Message</h3>
         <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <input type="email" name="_reply to" placeholder="Your Email" required />
         <textarea name="message" rows="5" placeholder="Your Message" required />
         <button type="submit">Send Message</button>
       </form>
