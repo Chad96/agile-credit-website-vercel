@@ -15,7 +15,7 @@ const HeroSection = () => (
       <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center">
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/27872553598"
+          href="https://wa.me/27751540808"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary btn-lg px-5 py-3"
