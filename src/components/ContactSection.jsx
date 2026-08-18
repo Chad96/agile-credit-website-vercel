@@ -14,8 +14,8 @@ const ContactSection = () => (
         <div className="contact-card">
           <Phone size={32} />
           <h3>Phone</h3>
-          <p>Mobile: 087 092 6815</p>
-          <p>Tel: 087 255 3598</p>
+          <p>Mobile: 075 154 0808</p>
+          <p>Tel: 087 092 6815</p>
         </div>
 
         <div className="contact-card">
