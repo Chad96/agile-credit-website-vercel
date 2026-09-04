@@ -9,7 +9,7 @@ const HeroSection = () => (
         Your Journey From Debt to Prosperity Starts Here
       </h1>
       <p className="lead fs-4 text-light mb-5">
-        Helping South Africans restore their credit, remove debt review and build a better financial future guided by integrity, godliness and real results.
+        Helping South Africans restore their credit and build a better financial future guided by integrity, godliness and real results.
       </p>
 
       <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center">
