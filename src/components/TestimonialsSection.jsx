@@ -3,10 +3,6 @@ import './TestimonialsSection.css'; // ✅ Custom CSS
 
 const testimonials = [
   {
-    text: "Agile credit solutions helped me clear my debt review. Now I can finally apply for a bond. May God bless this team",
-    author: "Thando M"
-  },
-  {
     text: "I was blacklisted and didn't know where to go. They helped me clear my name",
     author: "Sipho D."
   }
