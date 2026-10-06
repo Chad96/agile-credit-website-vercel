@@ -1,28 +1,28 @@
 import React from 'react';
-import { Shield, Users } from 'lucide-react';
+import { CheckCircle, Shield, TrendingUp, Users } from 'lucide-react';
 import './ServicesSection.css'; // 👈 Import your custom styles
 
 const services = [
-  // {
-  //   title: "Debt Review Removal",
-  //   description: "We help you remove your name from debt review the legal way - so you can qualify for credit again.",
-  //   icon: <CheckCircle size={48} />
-  // },
+  {
+    title: "Debt Review Removal",
+    description: "We help you remove your name from debt review the legal way - so you can qualify for credit again.",
+    icon: <CheckCircle size={48} />
+  },
   {
     title: "Blacklisted Assistance",
     description: "If you've been blacklisted, we will guide you in clearing your name and starting fresh.",
     icon: <Shield size={48} />
   },
-  // {
-  //   title: "Adverse & Judgment Removal",
-  //   description: "We assist in removing negative listings, adverse accounts, and court judgments from your credit profile.",
-  //   icon: <TrendingUp size={48} />
-  // },
-  // {
-  //   title: "Prescribed Debt Removal",
-  //   description: "Some debts expire after a certain period. We check and help you legally remove any prescribed debts you're no longer responsible for.",
-  //   icon: <CheckCircle size={48} />
-  // },
+  {
+    title: "Adverse & Judgment Removal",
+    description: "We assist in removing negative listings, adverse accounts, and court judgments from your credit profile.",
+    icon: <TrendingUp size={48} />
+  },
+  {
+    title: "Prescribed Debt Removal",
+    description: "Some debts expire after a certain period. We check and help you legally remove any prescribed debts you're no longer responsible for.",
+    icon: <CheckCircle size={48} />
+  },
   {
     title: "Credit Score Education",
     description: "Learn how credit works, how to fix your credit score, and how to maintain a strong financial profile.",

@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import ServicesSection from '../components/ServicesSection';
 import AboutSection from '../components/AboutSection';
-// import TestimonialsSection from '../components/TestimonialsSection';
+import TestimonialsSection from '../components/TestimonialsSection';
 import CTASection from '../components/CTASection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
@@ -133,7 +133,7 @@ const AgileCreditSolutions = () => {
       <HeroSection />
       <ServicesSection />
       <AboutSection />
-      {/* <TestimonialsSection /> */}
+      <TestimonialsSection />
       <CTASection />
       <ContactSection />
       <Footer />
